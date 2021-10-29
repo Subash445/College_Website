@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.htm"><img src="images/logo.png" alt="" srcset=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.htm">HOME</a></li>
+                    <li><a href="About Us.htm">ABOUT</a></li>
+                    <li><a href="Course.htm">COURSE</a></li>
+                    <li><a href="Blog.htm">BLOG</a></li>
+                    <li><a href="Contact.htm">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+<h1>
+Our Certification & Online Programs for 2021
+
+</h1>
+</section>
+
+<!---Blog Page content-->
+<section class="blog-content">
+
+    <div class="row">
+
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate & Online Programs for 2021</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi doloribus itaque illo. Adipisci, voluptatibus voluptatum ipsam eligendi excepturi eum delectus enim nobis praesentium. Dicta architecto repudiandae fuga atque voluptas dolorem. <br> </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat provident laudantium fugit, cupiditate nulla optio velit consequatur vitae tempore nemo odit tempora voluptatem asperiores quo ipsum maiores alias ratione amet. <br></p>
+
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsa, dolor ullam non consequuntur eum at neque minus pariatur. Commodi, exercitationem. Nemo illum pariatur minus dolorum ad sequi magni iste?</p>
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                </form>
+            </div>
+
+        </div>
+
+            
+        <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Anaytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Auto CAD</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>21</span>
+                </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- footer -->
+<section class="footer">
+    <!-- <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, veritatis?<br> Doloribus, tempore voluptas placeat corporis adipisci alias vitae aliquid ut quasi o.</p> -->
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-youtube"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart"></i> by Subash Tamang <br> BICT 3rd Sem 2019</p>
+</section>
+    
+
+
+
+
+
+<!----javaScript------->
+    <script>
+
+        var navLinks=document.getElementById("navLinks");
+
+        function showmenu()
+        {
+            navLinks.style.right="0";
+
+        }
+        function hidemenu()
+        {
+            navLinks.style.right="-200px";
+            
+        }
+    </script>
+</body>
+</html>
